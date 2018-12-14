@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tableaux 01-02-03-04</title>
+    <title>Tableaux 01-02-03-04-08</title>
 </head>
 <body>
 <!-- créer un tableau avec les mois de l'année -->
@@ -16,6 +16,9 @@
         echo ($mois[5]);?><br/><?php
         $mois[7] = 'Août';
         var_dump($mois);
+        foreach ($mois as $items) {
+            echo "$items <br>";
+        }
     ?>
 </body>
 </html>
