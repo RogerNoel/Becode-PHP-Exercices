@@ -10,8 +10,7 @@
 <!-- Faire une page index.php. Tester sur cette page que tous les paramètres de cette URL existent et les afficher: index.php?nom=Nemare&prenom=Jean -->
     <h2>Paramètres URL 01</h2>
     <?php
-        if (isset($_GET['nom']) && isset($_GET['prenom'])) {
-            
+        if (isset($_GET['nom']) && isset($_GET['prenom'])) {            
             echo $_GET['nom'] . ' '.  $_GET['prenom'];
         }
         else {
